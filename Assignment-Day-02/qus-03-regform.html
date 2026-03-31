@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunbeam Infotech</title>
+</head>
+<body>
+    <div>
+    <img 
+    src="https://media.licdn.com/dms/image/v2/C560BAQHGQzPwHZ1-sA/company-logo_200_200/company-logo_200_200/0/1630658280357?e=2147483647&v=beta&t=8V3jtGLNVW809eyBtBkH3pdWmo5AsWHdQcUUzplQNJM"
+     width="10%" height="10%" alt="Sunbeam logo">
+    </div>
+    <h1>Sunbeam Registraction Form </h1>
+    <div>
+<iframe width="560" 
+height="315" src="https://www.youtube.com/embed/Az5Bt3zUtiM?si=t4rw3OFSpRxAGIuf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; 
+web-share" 
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+    </div>
+    <form action="submit.html" method="POST">
+        <div>
+             <label for="name"> Name  :   </label>
+             <input type="text" 
+             name="name" 
+             placeholder="Enter Your Name" 
+             id = "name" required>
+        </div>
+             <div>
+             <label for="Birth-Date"> Birth Date   :</label>
+             <input type="date" 
+             name="birth-date" 
+             placeholder="Enter Your Birth Date" 
+             id = "Birth-Date" >
+        </div>
+             <div>
+             <label for="Email"> Email</label>
+             <input type="email" 
+             name="Email" 
+             placeholder="Enter Your Email" 
+             id = "Email" required>
+        </div>
+             <div>
+             <label for="name"> Password</label>
+             <input type="password" 
+             name="Password" 
+             placeholder="Enter Your Password" 
+             id = "Password" required>
+        </div>
+
+             <div>
+                <label for="Address"> Address</label>
+            <textarea
+          rows="5"
+          cols="20"
+          name="address"
+          id="address"></textarea>
+        </div>
+
+        <div>
+             <label for="Gender"> Gender </label>
+            <input type="radio" name="gender" value="male" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="female" id="female">
+            <label for="female">Female</label>
+        </div>
+
+
+        <div>
+            <label for="Photo"> Photo </label>
+            <input type="file" name="photo" id="Photo">
+        </div>
+
+
+        <div>
+            <label for="course">Select your course</label>
+            <select name="course" id="course">
+                <option value="PGCP-MC">PGCP-MC</option>
+                <option value="DAC">DAC</option>
+                <option value="DBDA">DBDA</option>
+                <option value="DITISS">DITISS</option>
+            </select>
+
+        </div>
+
+        <div>
+            <label for="skill">Select your Skill</label>
+           <input type="checkbox" name="skill" value="Java" id="java">
+            <label for="java">Java</label>
+            <input type="checkbox" name="skill" value="Python" id="python">
+            <label for="python">Python</label>
+            <input type="checkbox" name="skill" value="JavaScript" id="javascript">
+            <label for="javascript">JavaScript</label>
+            <input type="checkbox" name="skill" value="C#" id="csharp">
+            <label for="csharp">C#</label>
+            <input type="checkbox" name="skill" value="Go" id="go">
+        </div>
+        <div>
+            <input type="reset" value="Reset">
+       
+         <input type="submit" value="Submit">
+    </div>
+    </form>
+</body>
+</html>
