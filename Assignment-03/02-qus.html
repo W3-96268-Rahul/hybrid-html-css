@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+          p{
+            color: gray;
+            margin: 5px 5px;
+            font-weight: 2px;
+        }
+         h4{
+            color: black;
+            margin-left: 40px;
+        }
+        h5{
+            margin: 25px 50px;
+            color: orange;
+           
+
+        }
+      
+        button{
+            background-color: green;
+            color: white;
+            border: none;
+                padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+           margin: 10px 50px;
+
+        } 
+        button:hover{
+            background-color: rgb(1, 34, 1);
+
+        }  
+        .title{
+
+            text-align: center;
+            color: black;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+             font-size: 20px;
+             margin-top: 50px;
+        }
+        .parent{
+            width: 800px;
+            height: 600px;
+            background-color: rgba(163, 163, 163, 0.427);
+            display: flex;
+            align-items: center;
+             justify-content: center;
+             border-radius: 4%;
+                margin: 50px auto;
+           
+          
+        }
+        .box{
+            width: 200px;
+            height: 400px;
+            margin-left: 10px;
+                background-color: rgba(255, 255, 255, 0.672);
+                border-radius: 2%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+        }
+        .img-div{
+            height: 150px;
+            width: 180px;    
+            border: solid 1px black;
+            margin: 10px;
+        }
+        .img-div img{
+            height: 100%;
+            width: 100%;
+        }
+        .detl-div{
+            height: 120px;
+            width: 180px;    
+            margin: 10px;   
+        }
+        
+        </style>
+</head>
+<body>
+    <h5 class="title">Our Products</h5>
+    <div class="parent">
+
+    <div class="box">
+        <div class="img-div">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8ZhFhCB1IOMGIeMYgRWNsIQU2fCp1LNSF8A&s"
+             alt="mac image">
+        </div>
+          <div class="detl-div">
+            <h4> Apple Mac </h4>
+            <p>MacBook Pro 16-inch
+                <br>
+                Apple M2 Pro 
+            </p>
+            <h5> Rs 2,49,000</h5>
+             <button>Add Cart</button> 
+           </div>
+     </div>
+     <div class="box">
+        <div class="img-div"> 
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxASEA8NDQ8PDQ0PDw0PDRANDQ8ODQ0OFREWFhURFRUYHiggGBomGxUTITEhJSkrLi4uFx8zODMsNygtMCsBCgoKDQ0NDg0NDi0ZFRkrKysrKy0rNysrLSsrLSsrKysrKystKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAOEA4QMBIgACEQEDEQH/xAAcAAEAAQUBAQAAAAAAAAAAAAAAAwECBQYHBAj/xABNEAACAQMBBAQICAkJCQAAAAAAAQIDBBESBQchMQYTQVEiYXGBkaGxshQjMlJic4LBJUJyg5Kjs9HwJDM0NURjdJOiFRYmU1SUwsPh/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/xAAVEQEBAAAAAAAAAAAAAAAAAAAAEf/aAAwDAQACEQMRAD8A7iAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAR1a0Y8ZSSAkBq3SXpxa2azUlmXYnlP0fwzRau+uKl4NDMO9wl+8DsYOd7A3t2VdqFXNGT7Vlr0P7sm/Wl1TqxVSlONSD5OLyv/gEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAal0z6QKlGVGLxwxUa4t5XyF/HiA9W2uk9OkpaJcFwcvnPliPn4ew1m42zXSrV7iEqSpqPU0pfLnOSzFyjzzxXB8e9IzXRno/1cfh98vj1FzpUnxjaQw+PjqNc32cl2t4rZsOvvLVT4qVatdVV3uMXKPom4+gg8kt1EbqMbi/u7mF3UWqcaLp9XSb46FmLbx2vPFmrdJNzl3RjKrYXLu4x4unNaa2PFjhL+OB3gFHx5Sop1eouWreo5aesknFQecZk0uWefDgbbsrb+0tj3HVV9SgtLal4UZU3yknnEovsa9Rvm+7oXCrRe0reCjWg18I0r5S5RqeVPCfifiMduvnQ2xs2rsi/Wbiwwrarw62nRllR0vt0uOlp8GtIHTuifSejfUlUpNKoknOGeXjXi9hnT5uhC82Hf9VUyoKWqE45dOcG2lOPifJrs5Hfuj22ad3QjXp4zwVSKedMsZ9HagMmAAAAAAAAAAAAAAAAAAAAAAAAAAPDtraCoUKlZ4zFYgn2zfL+PEaB0Isne3dS8reHQtZrRq5VLp+EpePSsS8so9xPvc2wqcKdDOEoyqz4+VL1KXpNl6A7M+D7Ptqcl8ZOHX1u91Kr1tebKXkigPf0kqabS5f8AdTXp4fead0Pnm9p/4etj9KJtfS/+g3L7qefWjQ+hl1/Lrb6XXU356cmvWkQdUABR5dqWca1CtbzWY1aVSnLySi195877qrh23SCFLOI11XoTXY24Oa/1QR9JHzR0dX/Elq1/1svQ1P7gO5dPei0NoWsqWErimnO2m/xZ9sX9GS4PzPsOX7sNvTtK7t6+YxUnTqxnwcY5xx8cZfed1OM7zNkq22lTu4LFK7i3PC4ddHhP0pwflyB2YGC6F7R6+0hqealL4qfe9K8F+eLj6zOgAAAAAAAAAAAAAAAAUbxxfBLm3yRqO0+nFKPWKhpdOnnrK9TKprHPSucu3j4im87a0qFpohJxnWloyuajlJ4/ST8xxvb97ppU6EfBjLDklyxqSS9CwBuF5vAvquXaqnRpv5M7jXKc139XBx0ryvJ4v96tsdl3b/8Ab1l/7DWLW7ye+nWIrNw6YbYXOvaz/N3Ef/Nkq6dbXXZay/OVI+2LMIpl2oCm3Np3N5JzvLOjVk1pbhfVIeDjGMaMGelvM2lCP9DptRWEo1qbwl6DBORBczxFt9zA9897l3dt7PlaUou4zSzl6o5XNccZ4FbDaUrecLhRcpUZxno5OWHhx9DZpexaFBR2htKv4crRUoWVNScXK9qyahU4POIY1egptLpNUqzcsxim8tRxxCN9vOnl/Jaqde5oVdWW/giqUGs/J6rTy+1nymTt96txGlpqxhO4z8v/AGfe06TjjtisvPnwa5CeVF/OjGXHnxinj1ldYGdjvUu22puxjBprPwe8jNPHD5WFzNO6L16FHalDaFzc0Oqp1JzkoVMzy6UorCaXazJuoRTkB1aG8zZT/tKXmz7DWN4vSnZt7aRjbXUKtzSr0p0oKM1Np5jJLK7pZ8xoV5ShKLTjF8O2KNa6KbLnWvoUqDp0nDrK06tWGqnQpU4uUpyS4tYWMeMDs+7nbUKNScK81Tp1aaeZvC62DWF505eg6FHbdq+VxR/zIo+dL/bFvVUIKnrp1OrnKM0mo5WcYfPGS92FBcqUI/krT7APo2G0qD5V6L/Ow/eemE01mLTXenlHzLO3guWuP5NWovYy602tc2slVsrqvSnF50yqyqUan0Zwk2mmKPpoGG6H7djfWVvfRWh1oZqQXKFVPE4+ZpmZKAAAAAAAAAAA5rvjfC0j3yqexP7jju3Kmerf93B+s69vmeHZflVfdOObYf8AN5ePi6ftIK2tYydC4MJRcfnepnrp1F871BWdp1yVVTDQrrv9TJVcrv8AaBlusPPeLVCUVzaeDx/Cl3+0o7pd/tA1mhXcI16E4a4znTk05OOmUG36+B66O0oxSXURaWOc3+49da3hKUpN8ZPPJ9yI/gdPv9TCNrlcanqwo6uOmPyY57F4i11TEK7XeUd2vneoKyzrEUqxjHdfSXrLHcfSQHtuKmYtLuZrGxrp0q1fU5RjVoXFvU082qixgzLreNHhdrFylJyXhPKx2cAPRZTtNdNONSPh08uOW8KS5JywZWtWy2+9tmDp28U1JS5NM9cq3jAmrVjHXNbmX1JeNHmlTzykgO67h5Z2RFd1zcpeRuL9rZ0U5zuGWNkJd11cL1ROjFQAAAAAAAAAAHLt9L42Xlq+6cZ2vLhD6uHtOx77JeFY+Wr7DjO1Xwj+RH3iCCmz0QkeWDJ4MK9UZF2ogiy7IEuoaiLUMgXuRTUWZKZAv1DJZko2BJqLdRbktyBJqGSzIAkyMlmRkCk2WU3xFRltHmB3vcSvwQvHc3PtR0M57uL/AKoj/ibn3kdCKgAAAAAAAAAAOUb7U3OzS/FhcTfFLEUll8TjG0pcF4or2nWN/D+Ptf8ADV/eX7zj9zUk44bbxyTbaXEgQZPBnmiyaDCvQmXZIVIu1ASZGSPUNQEmSmSzUMgX5KNluoo2BdkpktyUyBfkuTIsldQEmQ2R5GoBNihzLJsrb8wPoDcbH8EU/HcXT/WNfcdANE3KRxseh4612/18jeyoAAAAAAAAAADjG/v+fsfqa/vxOPXPJ+f2nY9/a+Osfqrj3oHHbxcPT7SC2LL0yKJemFTKRXUQ6iuoCXUNRFqK6gJNRXURahqAlyUbLMlMgX5GSzIyBfkJlmRkC/IyWZGQEmSW74kDZLbviB9Gbml+B7f6y6/bzN3NL3Pr8D2v5Vz+3mboVAAAAAAAAAAAce37wzWsfqrj3oHHdowxFZ+l7TtG/FfG2P1dz71M47tpeCvP9xB4EyuSzIbAv1DURlUwJEyuSPJXIF+RksyMgX5CZHkagJcjJFkZAlyU1EWRkCXUNRFkZAvbJbd8Tz5JKL4oD6Z3RL8D2n59/rpm4mn7pP6ns/JW/bTNwKAAAAAAAAAAA5NvuXxtj9Xc+9TOPbdXgr7X3HYt9385Y/kXPvUzj+3fkL7X3AYgoAQCpQpkouyMluRkC7IyWaimoC/IyWaimoCTIyRaymsCXIyQ9YU6wCfUNR5+sKdaB6cl8JHj60kp1G2kk5Sbwkllt9yA+pt0f9TWPjhVf62ZuBguguy5WuzbG1qLFSlb01UXdUa1SXpbM6AAAAAAAAAAAHJ9+Py7F/RuV66Zx7bb8Bfa+47tvq2VKpZU7qmtTtKjlUwstUZrEpeZqD8mTge1Z5h6QMcUyWuRHKoBI5FrkQuoWOYHocy3WQOZTUBO5lushT7iWNvUfHRJLva0r0sBrKazI2HR28rPFG3q1Pqqc6vp0J4NlsN0+16rX8kqQi/xqkqNJLzTmpf6QNI1FNR1+w3D3cuNe4oUfJKdZrzJR9ps2ztxVnHHwi5q1X29VSp04v8AT1v1gfPSfdx8hIqE3+LLytaV6WfU+z91myKX9mdV/wB9WqSi/spqPqNg2f0bsaH9GsrWg++lbUoSflaWWB8lWPRi+rNKja16me2nQq1I+dxi0jZtn7odr1cZt3SXfWnSgvRq1eo+oku4qBwGw3DXMkuvurei+3Sqlxj3Pabt0R3QWdlWp3VSrK7q0uMIypQp0deOEtLcpPHNZljKR0gAAAAAAAAAAAAAAFs4JpxklKLTUk1lNPmmjiO8rdTKnGd3siMqlJZlVs1xnTWOLo98foPj3dx3AAfEsqc+yLl2cE3jxNdgVpVfHRJLvktK9LPrXbHQLZd1Vdxc2VKddvMqkXOlKb75aGtT8p6dn9Dtm0ONCwtYS+d1EJT/AEpZYHyXYbDuK7xQg6z5YoxlXa8qpp4NlsN1e1qrWLStGL/GmqdFL/MlF+pn1TCKSSikkuSSwkXAfPWz9xN7LjWq29FeOrOq/wBGMV7xs1huItkl8Iu6kn2/B6NOC/Wazr4A0fZ26jZNLGaNSu1/zq88P7MNMfUbDs/ots+hxoWNrSl86NvT1vyyxlmXAFIpLglhdiXIqAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH//2Q==" 
+           alt=""> 
+        </div> 
+          <div class="detl-div"> 
+          <h4>Laptop bag</h4> 
+            <p>HP Laptop Bag
+                <br>
+                Fits 15.6 inch laptop
+            </p> 
+            <h5> Rs 1,500 </h5>
+               <button>Add Cart</button> 
+          </div>
+    </div>
+    <div class="box">
+        <div class="img-div">
+            <img src="data:image/jpeg;base64,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" 
+            alt="keybord image">
+        </div>
+          <div class="detl-div">
+              <h4> Apple Keybord </h4>
+            <p>Apple Magic Keyboard
+                <br>
+                Wireless and rechargeable
+            </p>
+            <h5> Rs 9,900</h5>
+               <button>Add Cart</button> 
+          </div>
+    </div>
+
+    </div>
+</body>
+</html>
