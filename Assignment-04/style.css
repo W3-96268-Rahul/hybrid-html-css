@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+     background: radial-gradient(#EEAECA,#94BBE9);
+}
+
+header{
+    background: #f0e9e9;
+    padding: 20px;
+    text-align: center;
+    height: 100px;
+    width: 600px;
+    border-radius: 10px;
+    margin: 20px auto;
+     display: flex;
+}
+
+.title h1{
+    font-size: 20px;
+    color: #000000;
+    text-align: start;
+}
+.title p{
+    font-size: 15px;
+    color: #000000;
+    text-align: start;
+}
+.icon{
+     display: flex;
+    width: 40px;
+    height: 40px;
+   
+    
+}
+.icon img{
+    width: 100%;
+    height: 100%;
+    padding: 5px 5px;
+    margin-left: 10px;
+}
+
+
+
+.container{
+   width: 100%;
+    gap: 20px;
+    margin-top: 20px;
+    padding: 20px;
+ 
+
+   
+  
+
+}
+.notesbody{
+
+display: flex;
+    flex-direction: row;
+     flex-wrap: wrap;    
+    justify-content: space-between;
+}
+
+.notes{
+    width: 300px;
+    height: 400px;
+    background: linear-gradient( #22C1C3, #FDBB2D);
+    margin: 20px auto;
+    border: solid 10px #ffffff;
+    box-sizing: border-box;
+    border-radius: 2px;
+    position: relative;
+    margin: 20px;
+    
+   
+   
+ 
+}
+.notes:hover{
+ box-shadow: 3px 3px rgb(209, 104, 104), -5px -3px 8px rgb(100, 148, 231);
+}
+.notes textarea{
+    background: transparent;
+   margin: 30px 20px;
+    border: none;
+  
+}
+button{
+    background: #6671ed;
+     height: 40px;
+        width: 80px;
+        margin: 30px 100px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #000000;
+  
+}
+button:hover{
+    background-color: rgb(78, 200, 78);
+}
+
+.note-pin{
+    width: 30px;
+    height: 30px;
+    margin-left: 132px;
+}
+
+.note-cancel{
+ width: 30px;
+    height: 30px;
+    top: 0;
+    right: 0;
+    position: absolute;
+  transform: translate(50%, -50%);
+  cursor: pointer;
+}
